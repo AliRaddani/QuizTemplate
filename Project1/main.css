@@ -1,0 +1,66 @@
+﻿body {
+    font-size:large;
+    background-color:aquamarine;
+
+}
+#top {
+    height: 380px;
+    width: 100%;
+   background:url(/images/cities.jpg);
+   border-radius:25px;
+   }
+
+.inputs {
+    float: left;
+    width: 45%;
+    padding: 20px;
+    height: 1000px;
+   
+}
+
+.inputs1 {
+    float: right;
+    width: 45%;
+    padding: 20px;
+   
+    height: 1000px;
+}
+
+input[type=text] {
+    width: 40%;
+    margin-right: 10px;
+    height: 30px;
+    padding-left: 10px;
+   cursor: pointer;
+}
+input[type=radio]{
+    cursor:pointer;
+}
+select {
+    width: 120px;
+    padding-left: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+fieldset {
+    border-radius:25px;
+}
+
+#btn {
+    width: 30%;
+    height: 50px;
+    margin-left: 35%;
+    background-color: lime;
+    color: white;
+    font-size: large;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px){
+    .inputs1{
+        float:left;
+       
+    }
+   
+}
